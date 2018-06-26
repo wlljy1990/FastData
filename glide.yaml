@@ -1,0 +1,11 @@
+package: FastData
+import:
+- package: github.com/go-sql-driver/mysql
+  version: ^1.4.0
+- package: github.com/mattn/go-sqlite3
+  version: ^1.9.0
+- package: google.golang.org/appengine
+  repo: https://github.com/golang/appengine
+  vcs: git
+  subpackages:
+  - cloudsql
